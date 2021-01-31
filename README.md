@@ -15,8 +15,8 @@ A place to add, delete and classify images into groups using OCR and Image Recog
 
 ## Features
 
-- The user can create an account to store their images and classify them.
-- The images chosen by a user are uploaded to Firebase Storage/ Google Cloud Platform storage buckets.
+The user can create an account to store their images!
+The images chosen by a user are uploaded to Firebase Storage/ Google Cloud Platform storage buckets.
 - The Image is passed through [TesseractJS](https://tesseract.projectnaptha.com/) to identify characters using OCR!
 - The Image is then passed through [Google Cloud Vision API](https://cloud.google.com/vision) to get labels related to the image.
 - The data collected from the above two steps is uploaded to Firestore database (NoSQL).
@@ -42,11 +42,13 @@ A place to add, delete and classify images into groups using OCR and Image Recog
 
 The production version is hosted at https://imagre-repo.web.app/#
 
-## Use the development version
+## Use the development version or Install on Your local machine
 
 - Make sure that the latest version of Node and NPM are installed!
-- Clone this project!
+- Clone this repository using `git clone` command
 - Install the necessary NPM dependencies using `npm install`.
+-Install firebase and it's tools using Following commands:
+`npm i firebase` `npm intall -g firebase-tools`
 - [Create](https://firebase.google.com/docs/web/setup) a Firebase project and integrate the App with the Firebase project!
 - Place the Firebase config in ImageRepository/FirebaseConfig.js in the following format!
 
