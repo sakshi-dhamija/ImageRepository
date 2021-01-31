@@ -15,16 +15,18 @@ A place to add, delete and classify images into groups using OCR and Image Recog
 
 ## Features
 
-The user can create an account to store their images!
-The images chosen by a user are uploaded to Firebase Storage/ Google Cloud Platform storage buckets.
-- The Image is passed through [TesseractJS](https://tesseract.projectnaptha.com/) to identify characters using OCR!
-- The Image is then passed through [Google Cloud Vision API](https://cloud.google.com/vision) to get labels related to the image.
+- The user can create an account to store their images/files! 
+- The frontend of web-app is responsive!
+- The images chosen by a user are uploaded to Firebase Storage/ Google Cloud Platform storage buckets.
+- User's account is authenticated using Firebase!
 - The data collected from the above two steps is uploaded to Firestore database (NoSQL).
-- To search image labels, type a search term in the search box. (multiple queries, should be comma separated, eg: "cat, grass" with no trailing commas)
+- To search an image type a search term in the search box. (multiple queries, should be comma separated, eg: "cat, grass" with no trailing commas)
+## Unimplemented Features
+- [TesseractJS](https://tesseract.projectnaptha.com/) is used to identify characters using OCR but is not integrated yet with base code!
+
 - A list of identified labels appears on the left sidebar, which on clicking, shows the images corresponding to the clicked label!
 - The images can also searched on the basis of another chosen image, to those the image query, click on the camera button next to the search bar!
-- The images can be deleted from the library by clicking the `Delete` button corresponding to an image.
-- Information about images can be retreived by clicking the `Details` button corresponding to an image.
+
 
 ## Tech Stack and concepts used
 
