@@ -13,10 +13,15 @@ A place to add, delete and classify images into groups using OCR and Image Recog
 ## Features
 
 -The user can create an account to store their images/files!
+
 -The frontend of web-app is responsive!
+
 -The images chosen by a user are uploaded to Firebase Storage/ Google Cloud Platform storage buckets.
+
 -User's account is authenticated using Firebase!
+
 -The data collected from the above two steps is uploaded to Firestore database (NoSQL).
+
 -To search an image type a search term in the search box. (multiple queries, should be comma separated, eg: "cat, grass" with no trailing commas).
 <!--
 - The images chosen by a user are uploaded to Firebase Storage/ Google Cloud Platform storage buckets.(To choose an image, hover to the cloud button at the bottom right position)
