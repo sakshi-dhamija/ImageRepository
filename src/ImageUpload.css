@@ -1,0 +1,22 @@
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+}
+
+.imageupload__progress {
+  width: 0%;
+  color: aliceblue;
+}
+
+.imageupload__button {
+  margin: 10px;
+  height: 30px;
+  color: aliceblue;
+}
+*{
+  background-image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F677439968930881544%2F&psig=AOvVaw1J3dgM7pHR4i5AFYNrQe_d&ust=1612198467333000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj3zLrRxu4CFQAAAAAdAAAAABAD";
+}
